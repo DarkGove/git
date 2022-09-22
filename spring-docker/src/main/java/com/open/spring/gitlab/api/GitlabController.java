@@ -12,8 +12,8 @@ public class GitlabController {
 	@Autowired
 	GitlabService gitlabService;
 	
-	@PostMapping("/create/branch")
-	public void createBranch() {
-		gitlabService.createBranch();
+	@PostMapping("/create/project")
+	public void createProject() {
+		gitlabService.createProject();
 	}
 }
